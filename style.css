@@ -1,0 +1,47 @@
+.div1{
+    width: 100%;
+    padding-top: 60px;
+    height: 800px;
+    background-image: linear-gradient(rgb(129, 129, 129), rgb(62, 62, 62));
+}
+.div2{
+    height: 700px;
+    display: flex ;
+}
+.div3{
+
+
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.div4{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+}
+.div5{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(69, 69, 69);
+}
+.img1{
+    width: 500px;
+    height: 500px;
+    border-radius:50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    
+}
+
+p{
+    font-size: 70px;
+    font-weight: bold;
+    font-family:monospace;
+    color: aliceblue;
+    
+}
