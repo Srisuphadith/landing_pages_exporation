@@ -16,17 +16,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Srisuphadith</a>
+            <a class="navbar-brand" onclick="scroll1()">Srisuphadith</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">About me</a>
-                    <a class="nav-link" href="#">Education</a>
-                    <a class="nav-link" href="#">Skill</a>
-                    <a class="nav-link">Contact</a>
+                    <a class="nav-link active" aria-current="page"onclick="scroll2()">About me</a>
+                    <a class="nav-link"  onclick="scroll3()">Education</a>
+                    <a class="nav-link"  onclick="scroll4()">Skill</a>
+                    <a class="nav-link"  onclick="scroll5()">Contact</a>
                 </div>
             </div>
         </div>
@@ -85,16 +85,45 @@
                 Secondary school<br>
                 <li>Matthayom 1-6,Varee Chiangmai School</li>
             </div>
-
         </div>
     </div>
     
     <div class="div4">
 
     </div>
-    <div class="div5">
-        
+    <div class="contact">
+        <div class="head">
+            Contact
+        </div>
+        <div class="content">
+            <div class="left">
+                <i>11/1 Soi Pracha Uthit 42, Khwaeng Bang Mot, Khet Thung Khru, Bangkok, 10140</i><br>
+                IG : e_mc.c<br>
+                Phone : 0623731029 <br>
+                Email : srisuphadith.ratt@kmutt.ac.th <br>
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
     </div>
+    <script>
+            function scroll1() {
+        window.scrollTo(0, 0);
+    }
+    function scroll2() {
+        window.scrollTo(0, 750);
+    }
+    function scroll3() {
+        window.scrollTo(0, 1450);
+    }
+    function scroll4() {
+        window.scrollTo(0, 2300);
+    }
+    function scroll5() {
+        window.scrollTo(0, 2500);
+    }
+    </script>
 </body>
 
 </html>
